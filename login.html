@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login - Online Voting System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Login to Vote</h1>
+        <form action="login.php" method="POST" enctype="multipart/form-data">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="fingerprint">Fingerprint:</label>
+            <input type="file" id="fingerprint" name="fingerprint" accept=".jpg,.png,.jpeg" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="registration.html">Register here</a>.</p>
+    </div>
+</body>
+</html>

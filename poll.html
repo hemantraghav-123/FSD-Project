@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Status - Voting App</title>
+    <link rel="stylesheet" href="poll.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Poll Status</h1>
+        </header>
+        <section class="poll-info">
+            <h2>Current Poll</h2>
+            <p><strong>Poll Question:</strong> Who should be the next Prime Minister?</p>
+            <p><strong>Status:</strong> Open for voting</p>
+            <p><strong>Voting Ends:</strong> November 30, 2024, 23:45 PM IST</p>
+        </section>
+        <section class="poll-options">
+            <h2>Options</h2>
+            <form id="pollForm">
+                <div class="option">
+                    <input type="radio" id="option1" name="candidate" value="Candidate A">
+                    <label for="option1">Candidate A</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option2" name="candidate" value="Candidate B">
+                    <label for="option2">Candidate B</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option3" name="candidate" value="Candidate C">
+                    <label for="option3">Candidate C</label>
+                </div>
+                    <div class="option">
+                        <input type="radio" id="option4" name="candidate" value="Candidate D">
+                        <label for="option4">Candidate D</label>
+                </div>
+                <button type="submit" class="vote-button">Submit Vote</button>
+            </form>
+        </section>
+        <section class="poll-results">
+            <h2>Poll Results</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgzMUkuA7Rdc5aXs-L6tjFHz-eLY3a6mlTg&s" alt="Poll Results Graph" class="results-graph">
+        </section>
+    </div>
+</body>
+</html>
